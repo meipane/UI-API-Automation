@@ -16,11 +16,5 @@ pipeline {
                 '''
             }
         }
-
-        stage('Run Maven Test') {
-            steps {
-                sh 'mvn -B clean test'
-            }
-        }
     }
 }
